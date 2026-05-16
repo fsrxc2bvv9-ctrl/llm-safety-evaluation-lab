@@ -1,4 +1,8 @@
 # LLM Safety Evaluation Lab
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![OWASP](https://img.shields.io/badge/OWASP-LLM_Top_10-red)
+![Status](https://img.shields.io/badge/status-active-success)
+![License](https://img.shields.io/badge/license-MIT-green)
 An OWASP-inspired adversarial testing framework for evaluating LLM safety behavior across prompt injection, hallucination, social engineering, excessive agency, and related risk categories.
 Built as part of an independent AI Safety evaluation portfolio (May 2026).
 ---

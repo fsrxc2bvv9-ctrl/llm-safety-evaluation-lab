@@ -237,7 +237,7 @@ Links
 
 Disclaimer
 
-This repository is intended исключительно for defensive AI safety research, evaluation methodology, and benchmark development.
+This repository is intended exclusively for defensive AI safety research, evaluation methodology, and benchmark development.
 
 All prompts use researcher-safe framing.
 

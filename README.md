@@ -18,20 +18,32 @@ The goal is to study how modern LLMs behave under adversarial, ambiguous, and ma
 ---
 ## Core Components
 ### Attack Library
-63 manually crafted adversarial test cases covering:
+
+70+ manually crafted adversarial test cases covering:
+
 | Category | Tests | Key Risk |
+
 |---|---|---|
-| Prompt Injection | 12 | Instruction hierarchy bypass |
-| Hallucination | 10 | Fabricated facts presented as truth |
-| Sensitive Information Disclosure | 8 | Credential and PII exposure |
-| Social Engineering | 10 | Policy manipulation via human psychology |
-| Excessive Agency | 6 | Unauthorized irreversible actions |
+
+| Prompt Injection | 15 | Instruction hierarchy bypass |
+| Hallucination | 15 | Fabricated facts presented as truth |
+| Sensitive Information Disclosure | 10 | Credential and PII exposure |
+| Social Engineering | 14 | Policy manipulation via human psychology |
+| Excessive Agency | 10 | Unauthorized autonomous actions |
 | Obfuscated Attacks | 4 | Safety filter evasion |
 | False Refusal | 3 | Over-blocking legitimate requests |
 | Ambiguous Intent | 3 | Dual-use request calibration |
 | Vector / Embedding Weaknesses | 1 | RAG poisoning |
-| Temporal Confusion | 1 | Incorrect date anchoring |
----
+| Temporal Confusion | 1 | Incorrect temporal anchoring |
+
+Includes:
+- cross-model comparisons
+- multi-turn escalation chains
+- adversarial roleplay testing
+- fabricated future-event hallucination checks
+- agentic overreach scenarios
+- contextual safety calibration analysis
+
 ## Benchmark Runner
 The benchmark runner supports:
 - ChatGPT
